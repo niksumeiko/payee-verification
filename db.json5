@@ -1,0 +1,26 @@
+{
+    "payee-verification": [
+        {
+            id: "12345superman",
+            state: "MATCH",
+        },
+        {
+            id: "12345superma",
+            state: "CLOSE_MATCH",
+            name: "Superman"
+        },
+        {
+            id: "12345superm",
+            state: "CLOSE_MATCH",
+            name: "Superman"
+        },
+        {
+            id: "12345super",
+            state: "PARTIAL_MATCH",
+        },
+        {
+            id: "12345spider",
+            state: "NO_MATCH",
+        }
+    ],
+}
